@@ -52,7 +52,7 @@ void setup() {
 void draw() {
   // Update stroke saturation to visualize time better (saturation increases over time)
   stroke(hue,(int)saturation,brightness);
-  
+ 
   // Step simulation stepsPerFrame times while the mouse is being clicked.
   if(mousePressed){
     for(int i = 0; i < stepsPerFrame; i++) {
