@@ -8,7 +8,7 @@ import java.util.LinkedList;
 float stepsPerFrame = 2;
 float t = 0.001;
 float t_start = -0.1;
-float t_end = 0.5;
+float t_end = 0.15;
 float plotX = 0;
 float plotY = 0;
 float dt = 0.0001;
@@ -65,6 +65,7 @@ void stepSimulation() {
   // Clear canvas
   background(0);
   
+  println(t);
   // Initialize position of the first particle 
   particles[0].x = t;
   particles[0].y = t;
