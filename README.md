@@ -7,7 +7,8 @@ One day, proof-of-concept project.
 ![Example gif](https://github.com/ADVavvas/chaos-equations/blob/master/out.gif)
 
 ## TODO:
-- Implement dynamic time speedup (Slow down when something happends, move faster when nothing happens).
+- Implement dynamic time speedup (Slow down when something happens, move faster when nothing happens).
 - Add some colors.
 - Display time.
 - Add controls for time & changing the equations.
+- More (smaller) gifs.
